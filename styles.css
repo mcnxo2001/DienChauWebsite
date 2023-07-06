@@ -87,8 +87,12 @@
 
 .policy .card {
     box-shadow: 6px 5px 7px rgba(0, 0, 0, 0.2);
+    height: max-content;
 }
 
+.card-body {
+    height: 100%;
+}
 
 @media (min-width: 300px) and (max-width: 1000px) {
     .navbar-nav {
