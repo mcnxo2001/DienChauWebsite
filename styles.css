@@ -87,10 +87,34 @@
 
 .policy .card {
     box-shadow: 6px 5px 7px rgba(0, 0, 0, 0.2);
-    height: max-content;
 }
 
 .card-body {
+    height: 100%;
+}
+
+.services .card-title {
+    font-size: 20px
+}
+
+.team .card-text {
+    text-align: justify;
+}
+
+.team .card-body img{
+    object-fit: cover;
+    height: 30%;
+}
+
+.card-body i{
+    font-size: 30px
+}
+
+.fas{
+    margin-top:10px
+}
+
+.team .card{
     height: 100%;
 }
 
@@ -118,8 +142,8 @@
         margin-bottom: 15px;
     }
 
-    .card {
-        margin-bottom: 20px
+    .team .card {
+        margin-bottom: 20px;
+        height: fit-content;
     }
 }
-
