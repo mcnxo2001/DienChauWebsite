@@ -101,21 +101,64 @@
     text-align: justify;
 }
 
-.team .card-body img{
+.team .card-body img {
     object-fit: cover;
     height: 30%;
 }
 
-.card-body i{
+.card-body i {
     font-size: 30px
 }
 
-.fas{
-    margin-top:10px
+.fas {
+    margin-top: 10px
 }
 
-.team .card{
+.team .card {
     height: 100%;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.socials {
+    margin-top: auto;
+}
+
+@media (min-width: 1300px) and (max-width:1400px) {
+    .team .card-title {
+        font-size: 25px;
+    }
+
+    .team .card img {
+        height: 27%;
+    }
+}
+
+@media (min-width: 1200px) and (max-width:1300px) {
+    .team .card-title {
+        font-size: 25px;
+    }
+
+    .team .card img {
+        height: 28%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+    .team .card {
+        height: 100%;
+    }
+
+    .team .card-title {
+        font-size: 20px;
+    }
+
+    .team .card-body img {
+        height: 20%;
+    }
 }
 
 @media (min-width: 300px) and (max-width: 1000px) {
@@ -147,7 +190,7 @@
         height: fit-content;
     }
 
-    .about h2{
+    .about h2 {
         margin: 15px 0 15px 0;
     }
 }
